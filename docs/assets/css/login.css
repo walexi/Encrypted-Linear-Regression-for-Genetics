@@ -3,6 +3,30 @@
 .clearfix:after{clear:both;display:block}
 a{color:inherit;text-decoration:none}
 
+#googlemaps {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    overflow: hidden;
+    opacity: 0.5;
+    padding: 0 10px 0 10px;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#contactform {
+    position: relative;
+    z-index: 1; /* The z-index should be higher than Google Maps */
+    width: 300px;
+    margin: 60px auto 0;
+    padding: 10px;
+    background: black;
+    height: auto;
+    opacity: .45; /* Set the opacity for a slightly transparent Google Form */
+    color: white;
+}
+
 .description {
     font-size: 19px;
     word-break: break-word;
