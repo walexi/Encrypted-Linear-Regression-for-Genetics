@@ -3,6 +3,11 @@
 .clearfix:after{clear:both;display:block}
 a{color:inherit;text-decoration:none}
 
+.description {
+    font-size: 45px !important;
+    word-wrap: break-word !important;
+    letter-spacing: normal !important;
+}
 .login-wrap{
     width:100%;
     margin:0 auto;
